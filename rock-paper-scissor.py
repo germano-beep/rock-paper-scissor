@@ -21,7 +21,7 @@ class Participant:
 class GameRound:
     def __init__(self, p1, p2):
         self.rules = [
-            [0, 1, -1],
+            [0, -1, 1],
             [1, 0, -1],
             [-1, 1, 0]
         ]
